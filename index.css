@@ -97,7 +97,11 @@ a{
   width: 40%;
 }
 
+
 .header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #0093E9;
   background-image: linear-gradient(19deg, #0093E9 0%, #80D0C7 75%);
     }
@@ -135,6 +139,7 @@ text-align: left;
 font-size: 26px;
 color: #2f5770;
 margin-top: 0;
+text-align: center;
 }
 .header-bio:hover{
   color: rgb(255, 255, 255);
